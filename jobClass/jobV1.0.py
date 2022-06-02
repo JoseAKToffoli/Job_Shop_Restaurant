@@ -26,7 +26,7 @@ class Job () :
         self.TOT = COT + cycleTime
         self.idleTime = 0
 
-        self.P = P0
+        self.P = Po
         
         
         self.to = 
