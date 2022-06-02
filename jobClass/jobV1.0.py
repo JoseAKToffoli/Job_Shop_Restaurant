@@ -19,7 +19,7 @@ Jose Antonio Klautau Toffoli
 
 class Job () :
 
-    def __init__(self, COT, cycleTime, P0):
+    def __init__(self, COT, cycleTime, Po):
         
         self.COT = COT
         self.TTC = cycleTime
