@@ -113,7 +113,7 @@ Jose Antonio Klautau Toffoli
 2022-05-30
 '''
 
-class job ():
+class Job ():
 
     def __init__(self, RT, Po, DM):
         
@@ -129,10 +129,10 @@ if __name__ == "__main__":
 
     L = []
 
-    for i in range(1000):
+    for i in range(1000000):
 
-        L.append(job(15, 2, 'WI'))
-        L.append(job(15, 2, 'DT'))
+        L.append(Job(15, 2, 'WI'))
+        L.append(Job(15, 2, 'DT'))
 
     # print("ORIGINAL PRIORITY")
     # for i in range(len(L)):
@@ -148,7 +148,3 @@ if __name__ == "__main__":
     
     print(f'\nIt took {t - to}s to run.')
     quit()
-
-    
-    
-
