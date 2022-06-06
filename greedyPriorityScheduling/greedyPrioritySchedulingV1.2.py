@@ -307,10 +307,10 @@ if __name__ == '__main__':
         )
 
     pivot = getPivot(L, prevPivot)
-    print(f"TEST 01 PIVOT JOB w/ PREV PIVOT   : {L.index(pivot) == 1} | EXPECT: JOB 01")
+    print(f"TEST 01 PIVOT JOB w/ PREV PIVOT   : {'PASS' if L.index(pivot) == 1 else 'FAIL'} | EXPECT: JOB 01")
 
     pivot = getPivot(L)
-    print(f"TEST 01 PIVOT JOB w/out PREV PIVOT: {L.index(pivot) == 2} | EXPECT: JOB 02")
+    print(f"TEST 01 PIVOT JOB w/out PREV PIVOT: {'PASS' if L.index(pivot) == 2 else 'FAIL'} | EXPECT: JOB 02")
 
 
     # TEST 02:
@@ -359,10 +359,10 @@ if __name__ == '__main__':
         )
 
     pivot = getPivot(L, prevPivotJ)
-    print(f"TEST 02 PIVOT JOB w/ PREV PIVOT   : {L.index(pivot) == 1} | EXPECT: JOB 01")
+    print(f"TEST 02 PIVOT JOB w/ PREV PIVOT   : {'PASS' if L.index(pivot) == 1 else 'FAIL'} | EXPECT: JOB 01")
 
     pivot = getPivot(L)
-    print(f"TEST 02 PIVOT JOB w/out PREV PIVOT: {L.index(pivot) == 2} | EXPECT: JOB 02")
+    print(f"TEST 02 PIVOT JOB w/out PREV PIVOT: {'PASS' if L.index(pivot) == 2 else 'FAIL'} | EXPECT: JOB 02")
 
     # TEST 03:
     '''
@@ -410,7 +410,7 @@ if __name__ == '__main__':
         )
 
     pivot = getPivot(L, prevPivotJ)
-    print(f"TEST 03 PIVOT JOB w/ PREV PIVOT   : {L.index(pivot) == 2} | EXPECT: JOB 02")
+    print(f"TEST 03 PIVOT JOB w/ PREV PIVOT   : {'PASS' if L.index(pivot) == 2 else 'FAIL'} | EXPECT: JOB 02")
 
     pivot = getPivot(L)
-    print(f"TEST 03 PIVOT JOB w/out PREV PIVOT: {L.index(pivot) == 2} | EXPECT: JOB 02")
+    print(f"TEST 03 PIVOT JOB w/out PREV PIVOT: {'PASS' if L.index(pivot) == 2 else 'FAIL'} | EXPECT: JOB 02")
